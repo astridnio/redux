@@ -1,5 +1,13 @@
 {
     "baseUrl": "http://localhost:3000/",
     "viewportWidth" :1080,
-    "viewportHeight": 720
+    "viewportHeight": 720,
+    "reporter": "mochawesome",
+        "reporterOptions": {
+                "reportDir": "cypress/report/mochawesome-report",
+                    "overwrite": true,
+                    "html": true,
+                    "json": false,
+                "timestamp": "mmddyyyy_HHMMss"
+        }
 }
